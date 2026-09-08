@@ -1,0 +1,116 @@
+[2026-09-07 23:57:34] [INFO] 
+[2026-09-07 23:57:34] [INFO] ╔══════════════════════════════════════════════════════════════════════════════╗
+[2026-09-07 23:57:34] [INFO] ║                       UNIFIED DATA PROCESSING WORKFLOW                       ║
+[2026-09-07 23:57:34] [INFO] ╚══════════════════════════════════════════════════════════════════════════════╝
+[2026-09-07 23:57:34] [INFO] 
+[2026-09-07 23:57:34] [INFO] Starting unified workflow...
+[2026-09-07 23:57:34] [INFO] Log file: logs/unified_workflow_20260907_235734.log
+[2026-09-07 23:57:34] [INFO] Common folder: data
+[2026-09-07 23:57:34] [INFO] ────────────────────────────────────────────────────────────────────────────────
+[2026-09-07 23:57:34] [INFO] 
+[2026-09-07 23:57:34] [INFO] ╔══════════════════════════════════════════════════════════════════════════════╗
+[2026-09-07 23:57:34] [INFO] ║                         PHASE 1: DATA PREPROCESSING                          ║
+[2026-09-07 23:57:34] [INFO] ╚══════════════════════════════════════════════════════════════════════════════╝
+[2026-09-07 23:57:34] [INFO] 
+[2026-09-07 23:57:34] [INFO] 
+📋 Running 3 preprocessing steps...
+
+[2026-09-07 23:57:34] [INFO] [1/3] OptionChildPreprocessing
+[2026-09-07 23:57:34] [INFO]    Description: Processes child part to option mapping files
+[2026-09-07 23:57:34] [INFO]    Input folder: input_option_child
+[2026-09-07 23:57:34] [INFO]    Expected output: child_part_option.csv
+[2026-09-07 23:57:53] [INFO]    Output summary:
+[2026-09-07 23:57:53] [INFO]      Found 50 file(s) in 'input_option_child'
+[2026-09-07 23:57:53] [INFO]      [1/50] Processing: WC_Option_Child_202607010439.csv
+[2026-09-07 23:57:53] [INFO]      Detected delimiter: PIPE (|)
+[2026-09-07 23:57:53] [INFO]      Kept columns: Option_Number, Child_Part_Number
+[2026-09-07 23:57:53] [INFO]      Records in this file: 5876768
+[2026-09-07 23:57:53] [INFO]      [2/50] Processing: WC_Option_Child_202607011200.csv
+[2026-09-07 23:57:53] [INFO]      Detected delimiter: PIPE (|)
+[2026-09-07 23:57:53] [INFO]      Kept columns: Option_Number, Child_Part_Number
+[2026-09-07 23:57:53] [INFO]      Records in this file: 0
+[2026-09-07 23:57:53] [INFO]      ... (216 more lines)
+[2026-09-07 23:57:53] [INFO]    ✅ Output file found: child_part_option.csv (274.23 MB)
+[2026-09-07 23:57:53] [INFO]    ✅ Completed in 19s
+[2026-09-07 23:57:53] [INFO] ────────────────────────────────────────────────────────────────────────────────
+[2026-09-07 23:57:53] [INFO] [2/3] BomEsnConfigPreprocessing
+[2026-09-07 23:57:53] [INFO]    Description: Processes BOM ESN configuration files
+[2026-09-07 23:57:53] [INFO]    Input folder: input_bom_config
+[2026-09-07 23:57:53] [INFO]    Expected output: Csv_bom_esn_config.csv
+[2026-09-07 23:57:53] [INFO]    Output summary:
+[2026-09-07 23:57:53] [INFO]      Processing files and combining all records
+[2026-09-07 23:57:53] [INFO]      Output will be saved to: data\Csv_bom_esn_config.csv
+[2026-09-07 23:57:53] [INFO]      Found 23 file(s) to process
+[2026-09-07 23:57:53] [INFO]      [1/23] Processing: BOM_ESN_Config_202607010438.csv
+[2026-09-07 23:57:53] [INFO]      Detected delimiter: PIPE (|)
+[2026-09-07 23:57:53] [INFO]      Streaming file (processing row by row)...
+[2026-09-07 23:57:53] [INFO]      ✅ Processed 1878 rows
+[2026-09-07 23:57:53] [INFO]      ... (115 more lines)
+[2026-09-07 23:57:53] [INFO]    ✅ Output file found: Csv_bom_esn_config.csv (346.85 MB)
+[2026-09-07 23:57:53] [INFO]    ✅ Completed in 0s
+[2026-09-07 23:57:53] [INFO] ────────────────────────────────────────────────────────────────────────────────
+[2026-09-07 23:57:53] [INFO] [3/3] BomOptionPreprocessing
+[2026-09-07 23:57:53] [INFO]    Description: Processes BOM ESN option mapping files
+[2026-09-07 23:57:53] [INFO]    Input folder: input_bom_option
+[2026-09-07 23:57:53] [INFO]    Expected output: Csv_bom_esn_option_*.csv
+[2026-09-07 23:58:01] [INFO]    Output summary:
+[2026-09-07 23:58:01] [INFO]      Found 23 file(s) in 'input_bom_option'
+[2026-09-07 23:58:01] [INFO]      [1/23] Processing: BOM_ESN_Option_202607010438.csv
+[2026-09-07 23:58:01] [INFO]      Detected delimiter: PIPE (|)
+[2026-09-07 23:58:01] [INFO]      Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+[2026-09-07 23:58:01] [INFO]      Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+[2026-09-07 23:58:01] [INFO]      Records in this file: 0
+[2026-09-07 23:58:01] [INFO]      Year: 2026, Month: 07, Category: 02
+[2026-09-07 23:58:01] [INFO]      Group: 2026_02
+[2026-09-07 23:58:01] [INFO]      ... (198 more lines)
+[2026-09-07 23:58:01] [INFO]    ✅ Output file(s) found: Csv_bom_esn_option_*.csv
+[2026-09-07 23:58:01] [INFO]    ✅ Completed in 8s
+[2026-09-07 23:58:01] [INFO] ────────────────────────────────────────────────────────────────────────────────
+[2026-09-07 23:58:01] [INFO] 
+🔍 Verifying preprocessing outputs...
+[2026-09-07 23:58:01] [INFO]    ✅ Output file found: child_part_option.csv (274.23 MB)
+[2026-09-07 23:58:01] [INFO]    ✅ Output file found: Csv_bom_esn_config.csv (346.85 MB)
+[2026-09-07 23:58:01] [INFO]    ✅ Output file(s) found: Csv_bom_esn_option_*.csv
+[2026-09-07 23:58:01] [INFO]    ✅ Found 22 option file(s) in common folder
+[2026-09-07 23:58:01] [INFO] 
+[2026-09-07 23:58:01] [INFO] ╔══════════════════════════════════════════════════════════════════════════════╗
+[2026-09-07 23:58:01] [INFO] ║                       PHASE 2: MAIN WORKFLOW PIPELINE                        ║
+[2026-09-07 23:58:01] [INFO] ╚══════════════════════════════════════════════════════════════════════════════╝
+[2026-09-07 23:58:01] [INFO] 
+[2026-09-07 23:58:01] [INFO] 
+📋 Running 6 main workflow steps...
+
+[2026-09-07 23:58:01] [INFO] Found 22 option file(s):
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2016_01.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2016_02.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2017_01.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2017_02.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2018_01.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2018_02.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2019_01.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2019_02.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2020_01.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2020_02.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2021_01.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2021_02.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2022_01.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2022_02.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2023_01.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2023_02.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2024_01.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2024_02.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2025_01.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2025_02.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2026_01.csv
+[2026-09-07 23:58:01] [INFO]   - Csv_bom_esn_option_2026_02.csv
+[2026-09-07 23:58:01] [INFO] ────────────────────────────────────────────────────────────────────────────────
+[2026-09-07 23:58:01] [INFO] [1/6] Join2
+[2026-09-07 23:58:01] [INFO]   Processing: Csv_bom_esn_option_2016_01.csv
+[2026-09-07 23:58:06] [INFO]      The join will produce 0 records. Check data formats, case sensitivity, or column names.
+[2026-09-07 23:58:06] [INFO]      [SUCCESS] Completed in 4.27 seconds
+[2026-09-07 23:58:06] [INFO]      Output saved to: file2_Csv_bom_esn_option_2016_01.csv
+[2026-09-07 23:58:06] [WARNING]    ⚠️  Expected output not found: file2_2016_01.csv
+[2026-09-07 23:58:06] [ERROR]   ❌ Required step failed for Csv_bom_esn_option_2016_01.csv
+[2026-09-07 23:58:06] [ERROR]    ❌ Failed after 4s
+[2026-09-07 23:58:06] [WARNING]    ⚠️  Required step failed - stopping workflow
+[2026-09-07 23:58:06] [ERROR] ❌ Main workflow phase failed!

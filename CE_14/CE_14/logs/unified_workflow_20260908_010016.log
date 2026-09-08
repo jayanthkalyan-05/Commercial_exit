@@ -1,0 +1,10 @@
+[2026-09-08 01:00:16] [INFO] Starting Unified Workflow...
+[2026-09-08 01:00:16] [INFO] Config file: workflow_config.json
+[2026-09-08 01:00:16] [INFO] Log file: logs/unified_workflow_20260908_010016.log
+[2026-09-08 01:00:16] [INFO] ========================================
+[2026-09-08 01:00:16] [INFO] PHASE 1: Running DataPreprocessingWorkflow...
+[2026-09-08 01:00:37] [INFO] ✅ Preprocessing completed successfully.
+[2026-09-08 01:00:37] [INFO] ========================================
+[2026-09-08 01:00:37] [INFO] PHASE 2: Running MainWorkflow...
+[2026-09-08 01:00:37] [ERROR] ❌ Main workflow failed with exit code 1!
+[2026-09-08 01:00:37] [INFO] Unified Workflow finished. Total time: 21s

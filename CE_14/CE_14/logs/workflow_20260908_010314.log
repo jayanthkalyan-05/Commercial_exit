@@ -1,0 +1,608 @@
+=== WORKFLOW STARTED: 2026-09-08T01:03:14.022379 ===
+
+--- Running: OptionChildPreprocessing ---
+Input Folder: input_option_child
+Expected Output: child_part_option.csv
+Started at: 2026-09-08T01:03:14.022379
+
+Found 50 file(s) in 'input_option_child'
+
+[1/50] Processing: WC_Option_Child_202607010439.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 5876768
+[2/50] Processing: WC_Option_Child_202607011200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 0
+[3/50] Processing: WC_Option_Child_202607021200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 359
+[4/50] Processing: WC_Option_Child_202607031200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 1030
+[5/50] Processing: WC_Option_Child_202607041200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 340
+[6/50] Processing: WC_Option_Child_202607051200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 12
+[7/50] Processing: WC_Option_Child_202607061200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 0
+[8/50] Processing: WC_Option_Child_202607071200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 360
+[9/50] Processing: WC_Option_Child_202607081200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 577
+[10/50] Processing: WC_Option_Child_202607091200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 536
+[11/50] Processing: WC_Option_Child_202607101200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 411
+[12/50] Processing: WC_Option_Child_202607111200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 270
+[13/50] Processing: WC_Option_Child_202607121200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 19
+[14/50] Processing: WC_Option_Child_202607131200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 19
+[15/50] Processing: WC_Option_Child_202607141200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 1157
+[16/50] Processing: WC_Option_Child_202607151200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 762
+[17/50] Processing: WC_Option_Child_202607161200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 481
+[18/50] Processing: WC_Option_Child_202607171200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 1240
+[19/50] Processing: WC_Option_Child_202607181710.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 8
+[20/50] Processing: WC_Option_Child_202607191200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 0
+[21/50] Processing: WC_Option_Child_202607201200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 0
+[22/50] Processing: WC_Option_Child_202607211200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 0
+[23/50] Processing: WC_Option_Child_202607221200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 1851
+[24/50] Processing: WC_Option_Child_202607231200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 676
+[25/50] Processing: WC_Option_Child_202607241200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 197
+[26/50] Processing: WC_Option_Child_202607251200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 205
+[27/50] Processing: WC_Option_Child_202607261200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 15
+[28/50] Processing: WC_Option_Child_202607271200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 2
+[29/50] Processing: WC_Option_Child_202607281200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 978
+[30/50] Processing: WC_Option_Child_202607291200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 664
+[31/50] Processing: WC_Option_Child_202607301200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 602
+[32/50] Processing: WC_Option_Child_202607311200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 911
+[33/50] Processing: WC_Option_Child_202608011200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 266
+[34/50] Processing: WC_Option_Child_202608021200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 10
+[35/50] Processing: WC_Option_Child_202608031200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 1
+[36/50] Processing: WC_Option_Child_202608041200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 0
+[37/50] Processing: WC_Option_Child_202608051200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 1194
+[38/50] Processing: WC_Option_Child_202608061200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 1149
+[39/50] Processing: WC_Option_Child_202608071200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 1225
+[40/50] Processing: WC_Option_Child_202608081200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 599
+[41/50] Processing: WC_Option_Child_202608091200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 69
+[42/50] Processing: WC_Option_Child_202608101200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 67
+[43/50] Processing: WC_Option_Child_202608111200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 395
+[44/50] Processing: WC_Option_Child_202608121200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 635
+[45/50] Processing: WC_Option_Child_202608131200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 591
+[46/50] Processing: WC_Option_Child_202608141200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 1372
+[47/50] Processing: WC_Option_Child_202608151200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 228
+[48/50] Processing: WC_Option_Child_202608161200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 2
+[49/50] Processing: WC_Option_Child_202608171200.csv
+   Detected delimiter: PIPE (|)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 0
+[50/50] Processing: wc_option_child_prod_extract_06262026.csv
+   Detected delimiter: COMMA (,)
+   Kept columns: Option_Number, Child_Part_Number
+   Records in this file: 5874043
+
+Merging all processed records...
+📁 Found existing file: child_part_option.csv
+   Merging with existing data (concatenating, no deduplication)...
+   Existing records: 5874043
+
+✅ Saved merged file to: data\child_part_option.csv
+   Total rows across ALL files: 17646339
+   Final combined file rows: 17646339
+   Final Columns: Option_Number, Child_Part_Number
+   NO records dropped - all records kept (matching Python behavior)
+
+Preview of first 5 rows:
+Option_Number, Child_Part_Number
+1500DQGAF, LINE-0026
+1500DQGAF, LINE-0026-50L
+1500DQGAF, LINE-0026-T50
+A050K101, A050K997
+A050K101, A050K999
+
+⚠️  Parquet conversion requires additional libraries (not implemented)
+   CSV file saved successfully
+
+All done!
+
+✅ OptionChildPreprocessing completed successfully
+Completed at: 2026-09-08T01:03:29.510081100
+─────────────────────────────────────────────────────────────
+
+--- Running: BomEsnConfigPreprocessing ---
+Input Folder: input_bom_config
+Expected Output: Csv_bom_esn_config.csv
+Started at: 2026-09-08T01:03:29.511080100
+
+Processing files and combining all records
+Output will be saved to: data\Csv_bom_esn_config.csv
+
+Found 23 file(s) to process
+
+[1/23] Processing: BOM_ESN_Config_202607010438.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[2/23] Processing: BOM_ESN_Config_202607010700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[3/23] Processing: BOM_ESN_Config_202607020700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[4/23] Processing: BOM_ESN_Config_202607030700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[5/23] Processing: BOM_ESN_Config_202607040700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[6/23] Processing: BOM_ESN_Config_202607050700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[7/23] Processing: BOM_ESN_Config_202607060700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[8/23] Processing: BOM_ESN_Config_202607070700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[9/23] Processing: BOM_ESN_Config_202607080700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[10/23] Processing: BOM_ESN_Config_202607090700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[11/23] Processing: BOM_ESN_Config_202607100700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[12/23] Processing: BOM_ESN_Config_202607110700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[13/23] Processing: BOM_ESN_Config_202607120700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[14/23] Processing: BOM_ESN_Config_202607130700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[15/23] Processing: BOM_ESN_Config_202607140700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[16/23] Processing: BOM_ESN_Config_202607150700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[17/23] Processing: BOM_ESN_Config_202607160700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[18/23] Processing: BOM_ESN_Config_202607170700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[19/23] Processing: BOM_ESN_Config_202607180700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[20/23] Processing: BOM_ESN_Config_202607190700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[21/23] Processing: BOM_ESN_Config_202607200700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[22/23] Processing: BOM_ESN_Config_202607210700.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 1878 rows
+
+[23/23] Processing: BOM_ESN_Config_202607240100.csv
+   Detected delimiter: PIPE (|)
+   Streaming file (processing row by row)...
+   ✅ Processed 277 rows
+
+
+✅ Combined file saved: Csv_bom_esn_config.csv (346 MB)
+   Output folder: data
+
+All done!
+
+✅ BomEsnConfigPreprocessing completed successfully
+Completed at: 2026-09-08T01:03:29.677420600
+─────────────────────────────────────────────────────────────
+
+--- Running: BomOptionPreprocessing ---
+Input Folder: input_bom_option
+Expected Output: Csv_bom_esn_option_*.csv
+Started at: 2026-09-08T01:03:29.678420900
+
+Found 23 file(s) in 'input_bom_option'
+
+[1/23] Processing: BOM_ESN_Option_202607010438.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[2/23] Processing: BOM_ESN_Option_202607010700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[3/23] Processing: BOM_ESN_Option_202607020700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[4/23] Processing: BOM_ESN_Option_202607030700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[5/23] Processing: BOM_ESN_Option_202607040700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[6/23] Processing: BOM_ESN_Option_202607050700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[7/23] Processing: BOM_ESN_Option_202607060700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[8/23] Processing: BOM_ESN_Option_202607070700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[9/23] Processing: BOM_ESN_Option_202607080700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[10/23] Processing: BOM_ESN_Option_202607090700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[11/23] Processing: BOM_ESN_Option_202607100700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[12/23] Processing: BOM_ESN_Option_202607110700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[13/23] Processing: BOM_ESN_Option_202607120700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[14/23] Processing: BOM_ESN_Option_202607130700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[15/23] Processing: BOM_ESN_Option_202607140700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[16/23] Processing: BOM_ESN_Option_202607150700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[17/23] Processing: BOM_ESN_Option_202607160700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[18/23] Processing: BOM_ESN_Option_202607170700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[19/23] Processing: BOM_ESN_Option_202607180700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[20/23] Processing: BOM_ESN_Option_202607190700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[21/23] Processing: BOM_ESN_Option_202607200700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[22/23] Processing: BOM_ESN_Option_202607210700.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 0
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+[23/23] Processing: BOM_ESN_Option_202607240100.csv
+   Detected delimiter: PIPE (|)
+   Existing columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Kept columns: [design_configuration, shop_order_num, Engine_serial, option_assembly_num, build_year_2]
+   Records in this file: 6557281
+   Year: 2026, Month: 07, Category: 02
+   Group: 2026_02
+
+
+=== Combining and Saving Files ===
+Found 1 year-month category group(s):
+  - Month 01 = January-June (months 1-6)
+  - Month 02 = July-December (months 7-12)
+
+Processing group: 2026_02
+   ✅ Saved to: Csv_bom_esn_option_2026_02.csv
+   Total rows in combined file: 6557281
+   Existing rows: 0
+   New rows added: 6557281
+   File size: 369138 KB
+
+=== Summary ===
+Total groups processed: 1
+All files saved to: data
+
+Month grouping rules:
+  - Months 1-6 (Jan-Jun) → _01
+  - Months 7-12 (Jul-Dec) → _02
+
+All done! Check the 'data' folder for processed files.
+
+✅ BomOptionPreprocessing completed successfully
+Completed at: 2026-09-08T01:03:36.735944900
+─────────────────────────────────────────────────────────────
+
+
+═══════════════════════════════════════════════════════════════
+                    WORKFLOW SUMMARY                          
+═══════════════════════════════════════════════════════════════
+
+STATUS:
+  ✅ SUCCESS - Option-Child Preprocessing
+  ✅ SUCCESS - BOM ESN Config Preprocessing
+  ✅ SUCCESS - BOM Option Preprocessing
+
+TOTAL: 3/3 steps completed
+
+DURATION: 22 seconds
+OUTPUT FOLDER: data
+
+
+=== WORKFLOW COMPLETED: 2026-09-08T01:03:36.737945900 ===
